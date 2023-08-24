@@ -32,7 +32,8 @@
 }
 
 .part2 {
-    padding: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
 }
 
 @media (min-width: 992px) {
@@ -43,8 +44,9 @@
 }
 
 .part2 {
-    padding: 2rem;
-    width: 50%;
+  padding-top: 9rem;
+  padding-left: 2rem;
+  width: 50%;
 }
 
 }
