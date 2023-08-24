@@ -1,0 +1,63 @@
+.image-attribute {
+    width: 300px;
+    height: 300px;
+    overflow: clip;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #4682A9, #749BC2, #F6F4EB);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.container-special {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part {
+    padding: 2rem;
+
+}
+
+.part2 {
+    padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .part {
+    padding: 4rem;
+    width: 50%;
+
+}
+
+.part2 {
+    padding: 2rem;
+    width: 50%;
+}
+
+}
+  .item {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0%;
+    margin: 0%;
+
+  }
+
+  .lighter-background {
+    background-color: #F6F4EB;
+  }
